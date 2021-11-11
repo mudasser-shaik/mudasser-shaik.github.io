@@ -7,10 +7,10 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    <script src="https://kit.fontawesome.com/80f29c4fc9.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -20,11 +20,6 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-
-        a[href*="twitter"]:before {font-family: FontAwesome;padding-right:10px;content:"\f099";}
-        a[href*="facebook"]:before {font-family: FontAwesome;padding-right:10px;content:"\f09a";}
-        a[href*="linkedin"]:before {font-family: FontAwesome;padding-right:10px;content:"\f0e1";}
-        a[href*="plus.google"]:before {font-family: FontAwesome;padding-right:10px;content:"\f0d5";}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -50,6 +45,7 @@
 
       </section>
       <footer>
+        <i class="fab fa-linkedin"></i>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
