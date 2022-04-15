@@ -17,15 +17,18 @@
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/mudasser-shaik/spark-crash-course/)
 
 <div style="text-align: justify">
-As an instructor, I designed and taught the curriculum for End to End Distributed Machine Learning workflow at [Magnimind Academy](https://magnimindacademy.com/). From created a python - Data crawler application that extracts, cleans and store the Twitter data into MongoDB to train and deploy a NLP classification Model to Docker.
+As an instructor, I designed and taught the curriculum for End to End Distributed Machine Learning workflow at <a href="https://magnimindacademy.com/">Magnimind Academy</a>. From created a python - Data crawler application that extracts, cleans and store the Twitter data into MongoDB to train and deploy a NLP classification Model to Docker.
 
-- Data ingestion and Preprocessing using Python - Twitter Extractor  
-- Feature Engineering using PySpark-ML.  
-- Model Training and Evaluation 
-- ML tracking using Apache MLflow 
-- Model Serialization using Apache Mleap
-- Model Packaging and Deployment to Docker 
-- Schedule the training pipeline using Airflow.
+
+<ol>
+  <li>Data ingestion and Preprocessing using Python - Twitter Extractor</li>
+  <li>Feature Engineering using PySpark-ML</li>
+  <li>Model Training and Evaluation</li> 
+  <li>ML tracking using Apache MLflow </li>
+  <li>Model Serialization using Apache Mleap</li>
+  <li>Model Packaging and Deployment to Docker</li>
+  <li>Schedule the training pipeline using Airflow</li>
+</ol>
 
 In this architecture diagram the Data ingestion and ML Training is deployed on Cloud AWS and Databricks. These services interact with each otheron cloud to make a common End to End Distributed ML workflow.
 
