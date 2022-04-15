@@ -11,6 +11,30 @@
 
 ## Data Science
 
+### End-End Distributed ML LifeCycle
+
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/mudasser-shaik/spark-crash-course/blob/main/data/spark-crash-course-python.ipynb)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/mudasser-shaik/spark-crash-course/)
+
+<div style="text-align: justify">
+As an instructor, I designed and taught the curriculum for End to End Distributed Machine Learning workflow at [Magnimind Academy](https://magnimindacademy.com/). From created a python - Data crawler application that extracts, cleans and store the Twitter data into MongoDB to train and deploy a NLP classification Model to Docker.
+
+- Data ingestion and Preprocessing using Python - Twitter Extractor  
+- Feature Engineering using PySpark-ML.  
+- Model Training and Evaluation 
+- ML tracking using Apache MLflow 
+- Model Serialization using Apache Mleap
+- Model Packaging and Deployment to Docker 
+- Schedule the training pipeline using Airflow.
+
+In this architecture diagram the Data ingestion and ML Training is deployed on Cloud AWS and Databricks. These services interact with each otheron cloud to make a common End to End Distributed ML workflow.
+
+For deploying the ML model, we are using the Low latency Predictions Approach (non-Spark) using Apache Mleap and Docker.
+Note: In our Session we use Community Databricks Edition which spins up One Spot-EC2 instance.
+</div>
+<div style="text-align: center;"><img src="images/distributed_ml_lifecycle.png"/></div>
+
+---
 ### Spark Crash Course
 
 [![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](http://credit-risk.herokuapp.com/)
@@ -22,15 +46,8 @@
 <div style="text-align: center;"><img src="images/dummy_thumbnail.jpg"/></div>
 <br>
 
-
 ---
 
-### Category Name 1 
-
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
